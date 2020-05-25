@@ -1,0 +1,14 @@
+UserName: Manjaro, Number of Questions correct: 10, Number of Questions: 15, Percentage: 66.67
+UserName: Plasma, Number of Questions correct: 10, Number of Questions: 15, Percentage: 66.67
+UserName: this is a bad quiz, Number of Questions correct: 5, Number of Questions: 15, Percentage: 33.33
+UserName: Chiptune, Number of Questions correct: 4, Number of Questions: 15, Percentage: 26.67
+UserName: I wonder, Number of Questions correct: 4, Number of Questions: 15, Percentage: 26.67
+UserName: this is odd, Number of Questions correct: 13, Number of Questions: 15, Percentage: 86.67
+UserName: Test, Number of Questions correct: 10, Number of Questions: 15, Percentage: 66.67
+UserName: Test of Results, Number of Questions correct: 17, Number of Questions: 21, Percentage: 80.95
+UserName: more test, Number of Questions correct: 6, Number of Questions: 21, Percentage: 28.57
+UserName: Tomoko, Number of Questions correct: 16, Number of Questions: 21, Percentage: 76.19
+UserName: AddQuestionTest, Number of Questions correct: 23, Number of Questions: 23, Percentage: 100.0
+UserName: Seems to work so far :DD, Number of Questions correct: 20, Number of Questions: 24, Percentage: 83.33
+UserName: idiot, Number of Questions correct: 0, Number of Questions: 19, Percentage: 0.0
+UserName: Another idiot, Number of Questions correct: 1, Number of Questions: 20, Percentage: 5.26

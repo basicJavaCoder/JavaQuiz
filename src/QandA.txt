@@ -1,0 +1,21 @@
+1&How many times can 5 divide into 50?&10
+2&What is 40 times 3?&120
+3&What is the square root of 36?&6
+4&What is the cubed root of 343?&7
+5&What is 201 + 102?&303
+6&What is 30 divided by 6?&5
+7&The square root of 144?&12
+8&What is the value of pi to 2 decimal places?&3.14
+9&What is the value of x for this pythagorean triple? (5,4 and x)&3
+10&What is the value of G (The universal gravitational constant) to 2 decimal places?&6.68
+11&x = 32.5 + 56.3&88.8
+12&x = 12.7 + 34.12 - (4.5 *2)&37.82
+13&What is the opposite of 34?&436
+14&32-(12*2)&8
+15&What is 7-7&0
+16&What is the opposite of 61?&16
+17&What is the 12th digit of pi starting after the decimal point?&9
+19&21 + 77 - (9 * 4)&62
+20&What is the boiling point of Ethanol in celcius? (Answer to 2 decimal places)&78.37
+21&How many kilometres is the Sun away from Earth?&1.51E8
+22&The Answer is 5&5.0
