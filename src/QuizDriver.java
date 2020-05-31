@@ -75,6 +75,19 @@ public class QuizDriver {
         welcomeLabel.setBounds(200,200,200,40);
         welcomeLabel.setVisible(true);
         quizBye.add(welcomeLabel,BorderLayout.CENTER);
+
+        //Add a button to quit
+        JButton quitButton = new JButton("Exit!");
+        quitButton.setBackground(Color.green);
+        quitButton.setSize(200,100);
+        quitButton.setVisible(true);
+        quizBye.add(quitButton,BorderLayout.SOUTH);
+
+        quitButton.addActionListener((ActionEvent e) -> {
+
+            System.exit(0);
+
+        } );
     }
 
 }

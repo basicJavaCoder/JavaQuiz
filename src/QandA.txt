@@ -19,3 +19,4 @@
 20&What is the boiling point of Ethanol in celcius? (Answer to 2 decimal places)&78.37
 21&How many kilometres is the Sun away from Earth?&1.51E8
 22&The Answer is 5&5.0
+23&3 * 7 - ( 5- 7 )&23.0
