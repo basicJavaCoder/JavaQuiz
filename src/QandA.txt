@@ -15,8 +15,9 @@
 15&What is 7-7&0
 16&What is the opposite of 61?&16
 17&What is the 12th digit of pi starting after the decimal point?&9
-19&21 + 77 - (9 * 4)&62
-20&What is the boiling point of Ethanol in celcius? (Answer to 2 decimal places)&78.37
-21&How many kilometres is the Sun away from Earth?&1.51E8
-22&The Answer is 5&5.0
-23&3 * 7 - ( 5- 7 )&23.0
+18&21 + 77 - (9 * 4)&62
+19&What is the boiling point of Ethanol in celcius? (Answer to 2 decimal places)&78.37
+20&How many kilometres is the Sun away from Earth?&1.51E8
+21&The Answer is 5&5.0
+22&3 * 7 - ( 5- 7 )&23.0
+23&Answer is 66666666666&6.6666666666E10
