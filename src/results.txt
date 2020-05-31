@@ -15,3 +15,4 @@ UserName: Another idiot, Number of Questions correct: 1, Number of Questions: 20
 UserName: 6, Number of Questions correct: 1, Number of Questions: 21, Percentage: 5.0
 UserName: The answer to the last question is also the number of the last question :D, Number of Questions correct: 8, Number of Questions: 23, Percentage: 36.36
 UserName: exit button test, Number of Questions correct: 0, Number of Questions: 23, Percentage: 0.0
+UserName: WEEEEEE, Number of Questions correct: 1, Number of Questions: 24, Percentage: 4.35
