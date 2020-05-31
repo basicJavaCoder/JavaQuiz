@@ -13,3 +13,4 @@ UserName: Seems to work so far :DD, Number of Questions correct: 20, Number of Q
 UserName: idiot, Number of Questions correct: 0, Number of Questions: 19, Percentage: 0.0
 UserName: Another idiot, Number of Questions correct: 1, Number of Questions: 20, Percentage: 5.26
 UserName: 6, Number of Questions correct: 1, Number of Questions: 21, Percentage: 5.0
+UserName: The answer to the last question is also the number of the last question :D, Number of Questions correct: 8, Number of Questions: 23, Percentage: 36.36
