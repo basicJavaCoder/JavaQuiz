@@ -13,7 +13,13 @@ public class QuizDriver {
 
     public static void main(String[] args) throws IOException {
 
-        //System.out.println(AddQuestion.getNextQuestionNumber());
+        //try to set GTK look and feel
+        //I will comment out the code because I dont think many Linux users will try this quiz
+
+        /*try {
+            UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+        } catch (Exception e) { System.exit(1); }
+        */
 
         //Produce the introduction screen that asks the user for their name
         JFrame quizIntro = new JFrame();

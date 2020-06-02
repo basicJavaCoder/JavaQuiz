@@ -27,16 +27,28 @@ import java.util.ArrayList;
         double userAnswer;
 
 
+        //Ask user for their name so it can be used later to store results
         userName = JOptionPane.showInputDialog("Welcome to the Math Quiz! Please type your name to start the quiz: ");
 
-        //loop through arraylist and display the UI each round
 
+        //loop through arraylist of question (quizQuestions) and display the UI each round
         for(qNum = 0; qNum < quizQuestions.size(); qNum++) {
 
-           answerInput = JOptionPane.showInputDialog(quizQuestions.get(qNum).getQuestionText());
+            //userAnswer = 0;
 
-           userAnswer = Double.parseDouble(answerInput);
+           answerInput = JOptionPane.showInputDialog("Question " + (qNum + 1) + ": " + quizQuestions.get(qNum).getQuestionText());
 
+            //Added input validation via try catch to only allow input that can be converted to double
+           try {
+               userAnswer = Double.parseDouble(answerInput);
+           }
+           catch (NumberFormatException e) {
+               JOptionPane.showMessageDialog(null,"Invalid input. All answers must be a number.", "Error", JOptionPane.ERROR_MESSAGE);
+               qNum--;
+               continue;
+           }
+
+           //If the user types the right answer then add one to the total score counter (ansCorrect)
            if(userAnswer == (quizQuestions.get(qNum).getQuestionAnswer())) {
 
                ansCorrect++;
@@ -45,7 +57,7 @@ import java.util.ArrayList;
 
         //Thank you message to the user, showing their number of correct answers
         JOptionPane.showMessageDialog(null,"Thanks for taking the Quiz, " + userName + "! \n You got " + ansCorrect +  " out of " +
-                (quizQuestions.size() + 1) + " questions correct!","Results!",JOptionPane.PLAIN_MESSAGE);
+                (quizQuestions.size()) + " questions correct!","Results!",JOptionPane.PLAIN_MESSAGE);
 
         QuizResult result = new QuizResult(userName, ansCorrect, qNum);
         double percent = result.percentCorrect();
@@ -70,6 +82,8 @@ import java.util.ArrayList;
          * @throws IOException
          */
 
+
+    //Write username, corrent answers and total amount of questions they answered to results.txt
     private void writeResults(String userName, int ansCorrect, double percent) throws IOException
     {
         File out = new File("../JavaQuiz/src/results.txt");
@@ -81,10 +95,9 @@ import java.util.ArrayList;
         try (BufferedWriter bw = new BufferedWriter(fw)) {
 
             //writing to file
-
             bw.write("UserName: " + userName + ", " + "Number of Questions correct: " + ansCorrect + ", Number of Questions: "
-                    + (quizQuestions.size() +1) + ", Percentage: " + percent);
-            bw.write(System.lineSeparator());
+                    + (quizQuestions.size()) + ", Percentage: " + percent);
+            bw.write(System.lineSeparator()); //To make a newline in the file
             bw.flush();
         }
     } //end writeResults();
