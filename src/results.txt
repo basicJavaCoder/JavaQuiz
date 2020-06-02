@@ -1,10 +1,2 @@
-UserName: exit button test, Number of Questions correct: 0, Number of Questions: 23, Percentage: 0.0
-UserName: WEEEEEE, Number of Questions correct: 1, Number of Questions: 24, Percentage: 4.35
-UserName: Petscop is a great game, Number of Questions correct: 13, Number of Questions: 24, Percentage: 56.52
-UserName: Breeze Theme is Nice, Number of Questions correct: 20, Number of Questions: 25, Percentage: 83.33
-UserName: test question numbers in UI, Number of Questions correct: 0, Number of Questions: 25, Percentage: 0.0
-UserName: another question number test, Number of Questions correct: 1, Number of Questions: 25, Percentage: 4.17
-UserName: Validation test, Number of Questions correct: 8, Number of Questions: 19, Percentage: 44.44
-UserName: Final Test, Number of Questions correct: 18, Number of Questions: 18, Percentage: 100.0
-
-UserName: Another Final Test, Number of Questions correct: 19, Number of Questions: 19, Percentage: 100.0
+UserName: basicJavaCoder, Number of Questions correct: 19, Number of Questions: 19, Percentage: 100.0
+UserName: Silly Idiot, Number of Questions correct: 5, Number of Questions: 19, Percentage: 26.32
