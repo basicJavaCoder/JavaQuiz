@@ -1,9 +1,7 @@
-/**
+/*
  * This is the part of the program that deals with displaying the question and taking in user answers.
  * It also handles writing the results to the results.txt file for storing.
  */
-
-
 
 //Reference https://www.jetbrains.com/help/idea/working-with-code-documentation.html for JavaDocs
 import javax.swing.*;
@@ -29,7 +27,6 @@ import java.util.ArrayList;
 
         //Ask user for their name so it can be used later to store results
         userName = JOptionPane.showInputDialog("Welcome to the Math Quiz! Please type your name to start the quiz: ");
-
 
         //loop through arraylist of question (quizQuestions) and display the UI each round
         for(qNum = 0; qNum < quizQuestions.size(); qNum++) {
@@ -61,7 +58,6 @@ import java.util.ArrayList;
 
         QuizResult result = new QuizResult(userName, ansCorrect, qNum);
         double percent = result.percentCorrect();
-
 
         //Call method writeResults to send userName and ansCorrect to the results.txt file for storing users and their result
         try {

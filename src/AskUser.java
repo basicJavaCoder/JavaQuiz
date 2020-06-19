@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.io.IOException;
 
 //This class simply gets run after the user presses the start button the intro screen.
-//From here they have a choice to add their own question to the quiz or to skip this and do the quiz
+//From here they have a choice to add their own question to the quiz or to skip this and do the quiz with the already existing questions
 
 public class AskUser {
 

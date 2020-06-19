@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class AddQuestion {
 
+    //path to question file as a relative path so this code has the ability
+    // to be ran on any system without the need to modify the file paths
+    static String questionFilePath = "../JavaQuiz/src/QandA.txt";
+
     public static void createQuestion() throws IOException {
 
         //Variables for use in this class
@@ -18,9 +22,8 @@ public class AddQuestion {
         questionText = JOptionPane.showInputDialog("Please enter the question for Q" + questionNumber + ":");
         questionAnswer = Double.parseDouble(JOptionPane.showInputDialog("Please enter the answer for Q" + questionNumber + ":"));
 
-        //Write question to file
-
-        File out = new File("../JavaQuiz/src/QandA.txt");
+        //Declare file path and name to send the question to
+        File out = new File(questionFilePath);
 
         //Append so the current questions are not overwritten
         FileWriter fw = new FileWriter(out, true);
@@ -41,6 +44,7 @@ public class AddQuestion {
 
     } //end writeResults();
 
+    //A Method to get the last line of the QandA.txt file and the return that value + 1 to use as the next question number
     public static int getNextQuestionNumber() throws IOException {
 
         int nextQuestionNumber = 0;
@@ -52,7 +56,7 @@ public class AddQuestion {
         QuizGenerator getArray = new QuizGenerator();
 
         //Call getData() from QuizGenerator.java
-        arrayOfQuestions = getArray.getData("../JavaQuiz/src/QandA.txt");
+        arrayOfQuestions = getArray.getData(questionFilePath);
         lastArrayIndex = arrayOfQuestions.size() - 1;
 
         //This takes the string from the last index in the arraylist

@@ -15,26 +15,32 @@ public class Question {
     }
 
     public int getQuestionNumber() {
+
         return questionNumber;
     }
 
     public void setQuestionNumber(int questionNumber) {
+
         this.questionNumber = questionNumber;
     }
 
     public String getQuestionText() {
+
         return questionText;
     }
 
     public void setQuestionText(String questionText) {
+
         this.questionText = questionText;
     }
 
     public double getQuestionAnswer() {
+
         return questionAnswer;
     }
 
     public void setQuestionAnswer(Double questionAnswer) {
+
         this.questionAnswer = questionAnswer;
     }
 
@@ -42,11 +48,5 @@ public class Question {
     public String toString() {
         return "Question{" + "Question Number=" + questionNumber + ", Question Text=" + questionText + ", Question Answer=" + questionAnswer + '}';
     }
-    
-    
-    
-    
-    
-    
     
 }

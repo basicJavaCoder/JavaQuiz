@@ -18,8 +18,8 @@ public class QuizDriver {
 
         /*try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
-        } catch (Exception e) { System.exit(1); }
-        */
+        } catch (Exception e) { System.exit(1); } */
+
 
         //Produce the introduction screen that asks the user for their name
         JFrame quizIntro = new JFrame();
@@ -47,6 +47,8 @@ public class QuizDriver {
         start.setVisible(true);
         quizIntro.add(start,BorderLayout.SOUTH);
 
+        //Make actionListener to check for start button press and to run AskUser.ask();
+        //It then hides the main menu
         start.addActionListener((ActionEvent e) -> {
 
             quizIntro.setVisible(false);
@@ -61,6 +63,7 @@ public class QuizDriver {
 
     }
 
+    //This is run when the quiz results dialog has been closed.
     public static void goodbye() {
 
         //Produce the introduction screen that asks the user for their name
