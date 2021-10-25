@@ -17,3 +17,4 @@
 17&What is the 12th digit of pi starting after the decimal point?&9
 18&21 + 77 - (9 * 4)&62
 19&What month number is May?&5.0
+20&What is the 144th digit of Pi?&5.0
