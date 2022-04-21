@@ -4,3 +4,4 @@ UserName: Moron, Number of Questions correct: 3, Number of Questions: 19, Percen
 UserName: G, Number of Questions correct: 8, Number of Questions: 21, Percentage: 38.1
 UserName: Pi, Number of Questions correct: 16, Number of Questions: 20, Percentage: 80.0
 UserName: Plasma, Number of Questions correct: 10, Number of Questions: 21, Percentage: 47.62
+UserName: gtk theme, Number of Questions correct: 4, Number of Questions: 21, Percentage: 19.05

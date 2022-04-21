@@ -30,7 +30,7 @@ public class QuizGenerator extends GenericQuizGenerator {
 
         ArrayList<Question> questions = new ArrayList();
 
-        String line[] = new String[3]; // Each line contains 3 values. (question number, question, answer)
+        String[] line = new String[3]; // Each line contains 3 values. (question number, question, answer)
 
         File f = new File(fileName);
 

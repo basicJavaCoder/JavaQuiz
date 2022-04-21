@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class AddQuestion {
 
     //path to question file as a relative path so this code has the ability
-    // to be ran on any system without the need to modify the file paths
+    // to be run on any system without the need to modify the file paths
     static String questionFilePath = "../JavaQuiz/src/QandA.txt";
 
     public static void createQuestion() throws IOException {
@@ -22,7 +22,7 @@ public class AddQuestion {
         questionText = JOptionPane.showInputDialog("Please enter the question for Q" + questionNumber + ":");
         questionAnswer = Double.parseDouble(JOptionPane.showInputDialog("Please enter the answer for Q" + questionNumber + ":"));
 
-        //Declare file path and name to send the question to
+        //Declare file path and variable name to store the questions in
         File out = new File(questionFilePath);
 
         //Append so the current questions are not overwritten
