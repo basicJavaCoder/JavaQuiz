@@ -5,21 +5,13 @@ import java.io.IOException;
 
 /**
  * This is the main driver class of the Quiz
- * It will launch the Intro screen to ask the user their name for saving later
+ * It will launch the Intro screen to ask the user their name
  * then launch the questions via QuizUIJOP.java which can handle the rest
  */
 
 public class QuizDriver {
 
     public static void main(String[] args) throws IOException {
-
-        //try to set GTK look and feel
-        //I will comment out the code because I dont think many Linux users will try this quiz
-
-        /*try {
-            UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
-        } catch (Exception e) { System.exit(1); } */
-
 
         //Produce the introduction screen that asks the user for their name
         JFrame quizIntro = new JFrame();
@@ -92,11 +84,7 @@ public class QuizDriver {
         quitButton.setVisible(true);
         quizBye.add(quitButton,BorderLayout.SOUTH);
 
-        quitButton.addActionListener((ActionEvent e) -> {
-
-            System.exit(0);
-
-        } );
+        quitButton.addActionListener((ActionEvent e) -> System.exit(0));
     }
 
 }

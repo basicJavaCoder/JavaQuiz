@@ -19,3 +19,5 @@
 19&What month number is May?&5.0
 20&What is the 144th digit of Pi?&5.0
 21&What question number is this?&21.0
+22&9 * 4 / (2 * 2)&9.0
+23&What is the number for the Missing Page HTML Error?&404.0

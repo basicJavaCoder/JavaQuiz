@@ -4,9 +4,9 @@
  */
 
 public class Question {
-    private int questionNumber;
-    private String questionText;
-    private Double questionAnswer;
+    private final int questionNumber;
+    private final String questionText;
+    private final Double questionAnswer;
 
     public Question(String questionNumberIn, String questionTextIn, String questionAnswerIn) {
         this.questionNumber = Integer.parseInt(questionNumberIn);
@@ -19,29 +19,14 @@ public class Question {
         return questionNumber;
     }
 
-    public void setQuestionNumber(int questionNumber) {
-
-        this.questionNumber = questionNumber;
-    }
-
     public String getQuestionText() {
 
         return questionText;
     }
 
-    public void setQuestionText(String questionText) {
-
-        this.questionText = questionText;
-    }
-
     public double getQuestionAnswer() {
 
         return questionAnswer;
-    }
-
-    public void setQuestionAnswer(Double questionAnswer) {
-
-        this.questionAnswer = questionAnswer;
     }
 
     @Override

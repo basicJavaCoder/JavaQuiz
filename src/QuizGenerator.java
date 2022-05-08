@@ -11,10 +11,9 @@ public class QuizGenerator extends GenericQuizGenerator {
      */
     public static ArrayList<Question> createQuiz()
     {
-        ArrayList<Question> questionsFromFile = new ArrayList();
         QuizGenerator quiz = new QuizGenerator(); //this will be unnecessary when you access QuizGenerator from quizGUI
 
-        questionsFromFile = quiz.getData("../JavaQuiz/src/QandA.txt");
+        ArrayList<Question> questionsFromFile = quiz.getData("../JavaQuiz/src/QandA.txt");
 
         return questionsFromFile;
     }
