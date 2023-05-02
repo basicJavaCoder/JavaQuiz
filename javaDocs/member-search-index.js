@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"AddQuestion","l":"AddQuestion()","url":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"AddQuestion","l":"createQuestion()"},{"p":"<Unnamed>","c":"AddQuestion","l":"getNextQuestionNumber()"}]
