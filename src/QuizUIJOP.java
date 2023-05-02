@@ -11,12 +11,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-    public class QuizUIJOP {
+public class QuizUIJOP {
     static int ansCorrect ;
     String userName;
 
     //Generate an ArrayList of the questions
-    private ArrayList<Question> quizQuestions = QuizGenerator.createQuiz();
+    private final ArrayList<Question> quizQuestions = QuizGenerator.createQuiz();
 
     QuizUIJOP() {
 
@@ -25,8 +25,9 @@ import java.util.ArrayList;
         double userAnswer;
 
 
-        //Ask user for their name so it can be used later to store results
+        //Ask user for their name, so it can be used later to store results
         userName = JOptionPane.showInputDialog("Welcome to the Math Quiz! Please type your name to start the quiz: ");
+
 
         //loop through arraylist of question (quizQuestions) and display the UI each round
         for(qNum = 0; qNum < quizQuestions.size(); qNum++) {
@@ -40,7 +41,11 @@ import java.util.ArrayList;
                userAnswer = Double.parseDouble(answerInput);
            }
            catch (NumberFormatException e) {
-               JOptionPane.showMessageDialog(null,"Invalid input. All answers must be a number.", "Error", JOptionPane.ERROR_MESSAGE);
+               JOptionPane.showMessageDialog(
+                       null,
+                       "Invalid input. All answers must be a number.",
+                       "Error", JOptionPane.ERROR_MESSAGE
+               );
                qNum--;
                continue;
            }
@@ -53,8 +58,11 @@ import java.util.ArrayList;
         }
 
         //Thank you message to the user, showing their number of correct answers
-        JOptionPane.showMessageDialog(null,"Thanks for taking the Quiz, " + userName + "! \n You got " + ansCorrect +  " out of " +
-                (quizQuestions.size()) + " questions correct!","Results!",JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(
+                null,
+                "Thanks for taking the Quiz, " + userName + "! \n You got " + ansCorrect +  " out of " + (quizQuestions.size()) + " questions correct!",
+                "Results!",JOptionPane.PLAIN_MESSAGE
+        );
 
         QuizResult result = new QuizResult(userName, ansCorrect, qNum);
         double percent = result.percentCorrect();
@@ -71,15 +79,8 @@ import java.util.ArrayList;
 
     } //end quizUIJOP()
 
-    /**
-         *
-         * @param userName
-         * @param ansCorrect
-         * @throws IOException
-         */
 
-
-    //Write username, corrent answers and total amount of questions they answered to results.txt
+    //Write username, correct answers and total amount of questions they answered to results.txt
     private void writeResults(String userName, int ansCorrect, double percent) throws IOException
     {
         File out = new File("../JavaQuiz/src/results.txt");
