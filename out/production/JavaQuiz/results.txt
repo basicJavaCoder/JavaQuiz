@@ -1,14 +1,8 @@
-UserName: basicJavaCoder, Number of Questions correct: 19, Number of Questions: 19, Percentage: 100.0
-UserName: Silly Idiot, Number of Questions correct: 5, Number of Questions: 19, Percentage: 26.32
-UserName: Moron, Number of Questions correct: 3, Number of Questions: 19, Percentage: 15.79
-UserName: G, Number of Questions correct: 8, Number of Questions: 21, Percentage: 38.1
-UserName: Pi, Number of Questions correct: 16, Number of Questions: 20, Percentage: 80.0
-UserName: Plasma, Number of Questions correct: 10, Number of Questions: 21, Percentage: 47.62
-UserName: gtk theme, Number of Questions correct: 4, Number of Questions: 21, Percentage: 19.05
-UserName: Lana, Number of Questions correct: 22, Number of Questions: 22, Percentage: 100.0
-UserName: , Number of Questions correct: 16, Number of Questions: 23, Percentage: 69.57
-UserName: MOAR TESTING, Number of Questions correct: 12, Number of Questions: 23, Percentage: 52.17
-UserName: Fedora, 
+UserName: Fedora,
 	Number of Questions correct: 15,
 	Number of Questions: 23,
 	Percentage: 65.22%
+UserName: Lana, 
+	Number of Questions correct: 16,
+	Number of Questions: 23,
+	Percentage: 69.57%
