@@ -92,8 +92,13 @@ public class QuizUIJOP {
         try (BufferedWriter bw = new BufferedWriter(fw)) {
 
             //writing to file
-            bw.write("UserName: " + userName + ", " + "Number of Questions correct: " + ansCorrect + ", Number of Questions: "
-                    + (quizQuestions.size()) + ", Percentage: " + percent);
+            bw.write(
+                "UserName: " + userName + ", " +
+                "\n\tNumber of Questions correct: " + ansCorrect +
+                ",\n\tNumber of Questions: " + (quizQuestions.size()) +
+                ",\n\tPercentage: " + percent + "%"
+            );
+
             bw.write(System.lineSeparator()); //To make a newline in the file
             bw.flush();
         }
