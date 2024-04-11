@@ -8,3 +8,11 @@ UserName: gtk theme, Number of Questions correct: 4, Number of Questions: 21, Pe
 UserName: Lana, Number of Questions correct: 22, Number of Questions: 22, Percentage: 100.0
 UserName: , Number of Questions correct: 16, Number of Questions: 23, Percentage: 69.57
 UserName: MOAR TESTING, Number of Questions correct: 12, Number of Questions: 23, Percentage: 52.17
+UserName: Fedora, 
+	Number of Questions correct: 15,
+	Number of Questions: 23,
+	Percentage: 65.22%
+UserName: Lana, 
+	Number of Questions correct: 16,
+	Number of Questions: 23,
+	Percentage: 69.57%
